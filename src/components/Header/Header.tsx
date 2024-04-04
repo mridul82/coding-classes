@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <React.Fragment>
-        <div className="flex flex-row justify-between p-2 px-5 md:px-32 bg-white shadow-lg">
+         <div className="sticky top-0 z-50">
+
+         <div className="flex flex-row justify-between p-2 px-5 md:px-32 bg-white shadow-lg">
             <Link to="/">
             <img src={logo} alt='logo' style={{ height: '50px', width: '50px' }} className=" rounded-full object-cover" />
             </Link>
@@ -15,6 +17,8 @@ const Header = () => {
             <NavBar />
             
         </div>
+         </div>
+      
     </React.Fragment>
    
   )

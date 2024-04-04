@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+body {
+  background-color: rgba(247, 235, 235, 0.8); /* Faded white background */
+}
+
+
 /* For WebKit-based browsers (Chrome, Safari, Opera) */
 ::-webkit-scrollbar {
     width: 12px; /* Width of the scrollbar */
