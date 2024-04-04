@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <React.Fragment >
         <Header />
-        <div className="min-h-[70vh] text-2xl font-bold ">
+        <div className="min-h-[65vh] text-2xl font-bold">
             Home
         </div>
         <Footer />
